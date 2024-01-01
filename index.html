@@ -23,9 +23,9 @@
 			<!-- header区域 -->
 			<div class="ui header-contaner">
 				<h1>NothingEditor公众号编辑器</h1>
-				<button class="ui green button">
+				<div class="ui green button" id="copy" data-clipboard-action="copy" data-clipboard-target="#output-markdown">
 					复制格式
-				</button>
+				</div>
 			</div>
 
 			<!-- 编辑区域 -->
@@ -57,7 +57,12 @@
 		<script src='src/markdown-plugs/jquery.min.js'></script>
 		<script src='src/markdown-plugs/to-markdown.min.js'></script>
 		<script src='src/markdown-plugs/markdown-it.min.js'></script>
-		<script  src="src/markdown-plugs/quill-customer-script.js"></script>
-		
+		<script src="src/markdown-plugs/quill-customer-script.js"></script>
+		<!-- 剪切板复制工具 -->
+		<script src="src/other/tata.js"></script>
+		<script src="src/clipboard.min.js"></script>
+
+		<script src="src/customer.js"></script>
+
 	</body>
 </html>
