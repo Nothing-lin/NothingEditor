@@ -25,12 +25,15 @@ body {
 	width: 100%;
 	margin: auto;
 	margin-top: 20px;
-	padding-bottom: 40px;
+	padding-bottom: 18px;
 }
 
 .nine.wide.column.left-1 {
 	width: auto;
 	padding: 0;
+	position: sticky;
+	top: 10px;
+	height: 100px;
 }
 
 .seven.wide.column.right-1 {
@@ -54,6 +57,16 @@ body {
 
 /* 调整编辑器高度 */
 #editor-container {
-    height: 625px !important;
+	height: 615px !important;
 	min-height: 150px;
+}
+
+body ::-webkit-scrollbar-track {
+    background: none;
+	display: none;
+    /* border-radius: 0; */
+}
+
+body ::-webkit-scrollbar {
+    width: 8px;
 }
