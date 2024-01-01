@@ -16,7 +16,7 @@ body {
 
 .ui.header-contaner h1 {
 	margin: 0;
-	color: #39C376;
+	color: #61bc84;
 	font-family: emoji;
 }
 
@@ -57,7 +57,7 @@ body {
 
 /* 调整编辑器高度 */
 #editor-container {
-	height: 615px !important;
+	height: 505px !important;
 	min-height: 150px;
 }
 
@@ -69,4 +69,13 @@ body ::-webkit-scrollbar-track {
 
 body ::-webkit-scrollbar {
     width: 8px;
+}
+
+/* 设置弹窗颜色 */
+.tata.success {
+    background: #61bc84!important;
+}
+
+.ui.green.button, .ui.green.buttons .button {
+    background-color: #61bc84!important;
 }

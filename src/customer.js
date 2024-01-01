@@ -18,9 +18,10 @@ WechatMarkdownEdit.prototype.copy = function () {
 
   clipboard.on('success', function (e) {
     // tata是弹窗属性
-    tata.success('复制成功', '可前往公众号粘贴了(￣▽￣)"', {
+    tata.success('复制成功', '', {
       position: 'tm',
-      duration: 1500
+      duration: 1500,
+	  color:'#ffffff'
     });
 
     e.clearSelection();
