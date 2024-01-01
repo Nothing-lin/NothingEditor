@@ -3,7 +3,7 @@ body {
 }
 
 .ui.container {
-	width: 55%;
+	width: 60%;
 }
 
 .ui.header-contaner {
@@ -29,24 +29,28 @@ body {
 }
 
 .nine.wide.column.left-1 {
-    width: auto;
-    padding: 0;
+	width: auto;
+	padding: 0;
 }
 
 .seven.wide.column.right-1 {
-    width: 375px;
-    padding: 0;
+	width: 375px;
+	padding: 0;
 	margin-left: 0px;
 }
 
 .ui.segment.right-1 {
-    width: 375px;
-	float: right;
-	height: 1000px;
+	width: 375px;
+	left: 20px;
+	height: auto;
 }
 
-.ui.segment.left-1{
-    width: 100%;
-	float: left;
-	height: 1000px;
+.ui.segment.left-1 {
+	width: 100%;
+	height: auto;
+}
+
+/* 调整编辑器高度 */
+#editor-container {
+    height: auto !important;
 }
