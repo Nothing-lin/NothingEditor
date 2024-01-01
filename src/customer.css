@@ -43,14 +43,17 @@ body {
 	width: 375px;
 	left: 20px;
 	height: auto;
+	padding: 0;
 }
 
 .ui.segment.left-1 {
 	width: 100%;
 	height: auto;
+	min-height: 230px;
 }
 
 /* 调整编辑器高度 */
 #editor-container {
-    height: auto !important;
+    height: 625px !important;
+	min-height: 150px;
 }
